@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    list-style-type:none;
+}
+
+
+/* 设置文字间距和行高 */
+#wrap li{
+    padding: 1px 0px 0px 28px;
+    line-height: 30px;
+}
+
+
+/* 去除文字下划线 */
+#wrap li a{
+    text-decoration: none;
+    color: #777;
+}
+
+
+/* 鼠标悬停到文字时变色,变粗 */
+#wrap li a:hover{
+    color: #f63;
+    font-weight:bold;       /* 文字变粗 */
+    font-size: 20px;
+}
+
+
+/* 使第一个子元素字体变粗 */
+/* #wrap li:first-child{
+    background-position: 2px 10px;
+    font-weight: bold;
+} */
+
+
+/* 设置项目列表样式居中，且不会移动 */
+#wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+
