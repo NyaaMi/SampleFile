@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.menu{
+    padding: 0 0 0 32px;
+    height: 40px;
+    background: url(button1a.gif) repeat-x;     /* 添加菜单栏背景图，并使它平铺 */
+    position: relative;
+    font-family: arial,verdana,sans-serif;
+    margin-top: 50px;
+}
+
+
+/* 定义每个列表项以块状显示，并向左浮动，实现横向并列显示效果 */
+.menu li{
+    display: block;
+    float: left;
+    position: relative;
+}
+
+
+/* 设置每个超链接以块状显示，定义字体样式、导航栏高度 */
+.menu li a{
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 33px;
+    color: #bbb;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 0 0 12px;
+    cursor: pointer;
+}
+
+
+
+.menu li a{
+    float: left;
+    font-weight: bold;
+    display: block;
+    padding: 0 24px 0 12px;
+    height: 40px;
+}
+
+
+/* 定义鼠标经过超链接时的样式 */
+.menu li a:hover{
+    color: #000;
+    background: url(button4.gif) no-repeat;
+}
+
+
+.menu li spa:hover{
+    background: url(button4.gif) no-repeat right top;
+}
